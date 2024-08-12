@@ -30,10 +30,10 @@ public class SignInOrCreateAccountPageTest extends BaseTest{
 		}
 	}
 
-//	@Test(groups={"sanity"})
-//	public void pageTitleTest() {
-//		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In","Error - pageTitle is not matching with the expected title.Expected pageTitle=Amazon Sign In||Actual pageTitle="+signInPage.getTitleOfThePage()		);
-//	}
+	@Test(groups={"sanity"})
+	public void pageTitleTest() {
+		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In","Error - pageTitle is not matching with the expected title.Expected pageTitle=Amazon Sign In||Actual pageTitle="+signInPage.getTitleOfThePage()		);
+	}
 //	
 //	@Test(groups={"sanity"})
 //	public void backAndforthScenarioTest()
