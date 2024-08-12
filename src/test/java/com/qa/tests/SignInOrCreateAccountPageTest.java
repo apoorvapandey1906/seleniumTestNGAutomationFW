@@ -34,18 +34,18 @@ public class SignInOrCreateAccountPageTest extends BaseTest{
 	public void pageTitleTest() {
 		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In","Error - pageTitle is not matching with the expected title.Expected pageTitle=Amazon Sign In||Actual pageTitle="+signInPage.getTitleOfThePage()		);
 	}
-//	
-//	@Test(groups={"sanity"})
-//	public void backAndforthScenarioTest()
-//	{
-//		basePage.navigateBackward();
-//		Assert.assertEquals(homePage.getTitleOfThePage(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in","Error - User is not properly moved to the previous page");
-//	    basePage.navigateForward();
-//		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In");
-//		basePage.refreshPage();
-//		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In");
-//
-//	}
+	
+	@Test(groups={"sanity"})
+	public void backAndforthScenarioTest()
+	{
+		basePage.navigateBackward();
+		Assert.assertEquals(homePage.getTitleOfThePage(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in","Error - User is not properly moved to the previous page");
+	    basePage.navigateForward();
+		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In");
+		basePage.refreshPage();
+		Assert.assertEquals(signInPage.getTitleOfThePage(), "Amazon Sign In");
+
+	}
 //	
 //	
 //	@Test(groups={"regression"})
