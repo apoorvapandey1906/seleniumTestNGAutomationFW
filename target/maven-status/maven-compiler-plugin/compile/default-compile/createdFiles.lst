@@ -1,0 +1,8 @@
+com\qa\base\BasePage.class
+com\qa\pages\SignInPage.class
+com\qa\pages\IntentPage.class
+com\qa\utils\CustomWait.class
+com\qa\pages\HomePage.class
+com\qa\utils\ConfigReader.class
+com\qa\pages\RegistrationPage.class
+com\qa\pages\SignInOrCreateAccountPage.class

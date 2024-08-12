@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon sanity suite" parallel="tests">
+
+	<groups>
+		<run>
+			<include name="sanity"></include>
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="com.qa.customlisteners.MyListener">
+		</listener>
+	</listeners>
+
+
+	<test name="Amazon_SignInOrCreateAccountPage_Sanity_Tests">
+		<classes>
+			<class name="com.qa.tests.SignInOrCreateAccountPageTest" />
+		</classes>
+	</test>
+
+
+</suite> 

@@ -1,0 +1,7 @@
+com\qa\basetest\BaseTest.class
+com\qa\tests\RegistrationPageTest.class
+com\qa\testdatareaders\ExcelReader.class
+com\qa\customlisteners\MyListener.class
+com\qa\customlisteners\MyRetryAnalyzer.class
+com\qa\tests\SignInOrCreateAccountPageTest.class
+com\qa\tests\SignInPageTest.class
